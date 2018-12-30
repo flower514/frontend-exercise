@@ -1,0 +1,159 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background:#c3ffe8;
+	margin: 20px 0;
+	text-align: center;
+	color: #152628;
+	font-size: 11px;
+}
+a {
+	color: #152628;
+	font-size: 1.15em;
+	font-style: italic;
+	text-decoration: underline;
+}
+a:link, a:visited {
+	font-weight: normal;
+}
+a:hover {
+	font-weight: bold;
+}
+#header, #general, #objective, #skillareas, #history, #awards, #lastModified, #copyright,#oneself {
+	width: 720px;
+	margin: 0 auto;
+	text-align: left;
+	border-left: 8px solid #f3fff4;
+	border-right: 8px solid #f3fff4;
+}
+#header {
+	background: url(../img/header.gif);
+	height: 200px;
+	border-top: 8px solid #f3fff4;
+}
+#header h1#title {
+	position: relative;
+	top: 5px;
+	left: 50px;
+	color: #ddfbb2;
+	font-size: 18px;
+	margin: 0;
+}
+#general {
+	background: #92DCAF;
+	border-top: 1px solid #f3fff4;
+	border-bottom: 1px solid #f3fff4;
+	overflow: hidden;
+	padding:10px 0px;
+}
+#general .row {
+	margin: 5px 40px;
+	float: left;
+	width:250px;
+}
+#general .row #realname, #general .row #titleplace, #general .row #birthday, #general .row #phone, #general .row #email, #general .row #school, #general .row #subject, #general .row #education{
+	float: left;
+	margin-right:40px;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+}
+#general .row #realnameValue, #general .row #titleValue, #general .row #birthdayValue, #general .row #phoneValue, #general .row #emailValue, #general .row #schoolValue, #general .row #subjectValue, #general .row #educationValue {
+	color: #000;
+	text-decoration: underline;
+}
+#objective h2, #skillareas h2, #history h2, #awards h2, #oneself h2{
+	position: relative;
+	margin: 0;
+	top: 20px;
+	left: 20px;
+	font-size: 18px;
+}
+#objective {
+	background: url(../img/ui.gif);
+	height: 100px;
+	color: #f3fff4;
+	border-bottom: 1px solid #f3fff4;
+}
+#objective p {
+	position: relative;
+	top: 10px;
+	left: 20px;
+	color: #ddfbb2;
+	font-size: 16px;
+	font-weight: bold;
+}
+#skillareas {
+	background: #92DCAF;
+	color: #152628;
+	border-bottom: 1px solid #f3fff4;
+}
+
+#skillareas ul.skillset {
+	margin: 40px;
+	padding: 0;
+	list-style-type: lower-alpha;
+}
+#skillareas ul.skillset li {
+	margin: 10px 40px;
+	padding: 0;
+	color: #000;
+	text-decoration: underline;
+	font-size:13px;
+}
+#history {
+	background: #152628 url(../img/grid.gif);
+	color: #f3fff4;
+	border-bottom: 1px solid #f3fff4;
+}
+#history ol {
+	margin: 30px;
+	padding: 0;
+	list-style-type: upper-roman;
+}
+#history ol li.job {
+	margin: 0 40px;
+	font-size: 13px;
+	padding: 0;
+}
+#history ol li.job h3 {
+	color: #f3fff4;
+	font-size: 13px;
+	margin: 10px 0;
+}
+
+#oneself{
+	border-bottom: 1px solid #f3fff4;
+	background: #80d9c0;
+}
+
+#oneself p{
+	font-size: 13px;
+	margin: 10px 0;
+}
+
+#awards {
+	background: #41B8AC;
+	color: #152628;
+	border-bottom: 1px solid #f3fff4;
+}
+#awards ul,#oneself ul {
+	margin: 40px 50px;
+	padding: 0 20px;
+}
+
+#lastModified {
+	color: #f3fff4;
+	background: url(../img/btm.gif);
+	height: 179px;
+	text-align: right;
+}
+#copyright {
+	color: #f3fff4;
+	font-size: 12px;
+	text-align: right;
+	border-bottom: 8px solid #f3fff4;
+	margin-top: -20px;
+}
