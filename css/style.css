@@ -157,3 +157,19 @@ a:hover {
 	border-bottom: 8px solid #f3fff4;
 	margin-top: -20px;
 }
+
+.grzy{
+	float:left;
+	margin:5px 40px;
+}
+
+#grzy{
+	font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+	padding-right:18px;
+}
+
+#grzyValue{
+	text-decoration: underline;
+}
